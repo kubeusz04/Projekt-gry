@@ -1,11 +1,11 @@
 
 ### **1. Wstęp**
-Gra "Pojedynek" to tekstowa gra walki turowej, w której gracz zmierza się z przeciwnikiem. Program umożliwia:
-- Tworzenie postaci gracza.
-- Losowe generowanie przeciwnika.
-- Wybór akcji przez gracza w trakcie walki.
+Gra "Pojedynek" to tekstowa gra turowa, w której gracz walczy z przeciwnikiem wykorzystując w każdej turze wybraną akcję.
+
+Program posiada:
+- Turowy system walki.
 - Obsługę mechaniki zdrowia, ataków, leczenia i super ataku.
-- Prosty system menu.
+- System menu.
 
 ---
 
