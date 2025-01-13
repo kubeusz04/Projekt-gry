@@ -59,9 +59,9 @@ private:
 - **Metody**:
   - `wykonaj_akcje(int tura)` – umożliwia wybór akcji przez gracza:
     - **Atak** – losowe obrażenia od 1 do wartości `atak`.
-    - **Leczenie** – losowa regeneracja zdrowia (10–20 punktów).
+    - **Leczenie** – losowa regeneracja zdrowia (od 10 do 29).
     - **Super Atak** – podwójne obrażenia (co 4 tury).
-    - **Ucieczka** – kończy walkę i ustawia zdrowie na 0.
+    - **Ucieczka** – kończy walkę i ustawia zdrowie na 0 co jest jednoznaczne z porażką gracza.
   - `zaktualizuj_super_atak(int tura)` – co 4 tury ustawia `superAtakGotowy` na `true`.
 
 ---
