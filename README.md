@@ -105,7 +105,6 @@ void menu()
     - Rozpoczyna walkę.
   - `2` – Zakończ grę:
     - Kończy działanie programu.
-  - Obsługuje błędny wybór.
 
 ---
 
