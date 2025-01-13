@@ -9,7 +9,7 @@ Program posiada:
 
 ---
 
-### **2. Importowane biblioteki**
+### **2. Krótkie omówienie kodu**
 ```cpp
 #include <iostream>
 #include <cstdlib>
