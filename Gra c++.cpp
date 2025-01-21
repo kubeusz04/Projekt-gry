@@ -3,18 +3,18 @@
 #include <ctime>     // Biblioteka do pobierania biezacego czasu (dla srand)
 using namespace std;
 
-// Klasa bazowa Postac, ktora reprezentuje kazda postac w grze (gracza lub przeciwnika)
+// Abstrakcjyjna klasa bazowa, ktora reprezentuje kazda postac w grze (gracza lub przeciwnika)
 class Postac {
-protected:
+protected: 
     string nazwa;  // Nazwa postaci
     int zdrowie;   // Liczba punktow zdrowia postaci
-    int atak;      // Liczba obrazen zadawanych przez postac w ataku
+    int atak;      // Maksymalna liczba obrazen zadawanych przez postac podczas ataku
 
 public:
     // Konstruktor klasy Postac
     Postac(string n, int z, int a) : nazwa(n), zdrowie(z), atak(a) {}
 
-    // Czysta funkcja wirtualna, ktora zostanie nadpisana przez klasy pochodne
+    // Metoda wirtualna - wymuszasza implementację tej metody w klasach pochodnych (gracz i przeciwnik)
     virtual int wykonaj_akcje(int tura) = 0;
 
     // Funkcja otrzymywania przez postac obrazen
